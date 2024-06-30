@@ -1,0 +1,6 @@
+Record=SheetSymbol|SourceDocument=MB997.SchDoc|Designator=U_Audio|SchDesignator=U_Audio|FileName=Audio.SchDoc|SymbolType=Normal|RawFileName=Audio.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=MB997.SchDoc|Designator=U_IO Peripherals|SchDesignator=U_IO Peripherals|FileName=IO Peripherals.SchDoc|SymbolType=Normal|RawFileName=IO Peripherals.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=MB997.SchDoc|Designator=U_ST_LINK|SchDesignator=U_ST_LINK|FileName=ST_LINK_V2.SCHDOC|SymbolType=Normal|RawFileName=ST_LINK_V2.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=MB997.SchDoc|Designator=U_STM32Fx|SchDesignator=U_STM32Fx|FileName=STM32Fx.SchDoc|SymbolType=Normal|RawFileName=STM32Fx.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=MB997.SchDoc|Designator=U_USB_OTG_FS|SchDesignator=U_USB_OTG_FS|FileName=USB_OTG_FS.SchDoc|SymbolType=Normal|RawFileName=USB_OTG_FS.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=MB997.SchDoc
