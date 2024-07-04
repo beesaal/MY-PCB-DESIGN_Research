@@ -8,7 +8,7 @@
 The BAT60JFILIM Schottky diode is a versatile component used in various applications, including rectification, voltage clamping, ESD protection, RF signal detection, freewheeling diodes for inductive loads, logic level shifting, and power management in battery-powered devices.
 
 
-![2024-07-04 01_22_10-MB997 PrjPCB - Altium Designer (24 1 2)](https://github.com/beesaal/MY-PCB-DESIGN_Research/assets/88288997/e1d23bf2-d63e-4d3d-99d5-8c47e7c5d11d)
+![2024-07-04 01_27_31-MB997 PrjPCB - Altium Designer (24 1 2)](https://github.com/beesaal/MY-PCB-DESIGN_Research/assets/88288997/f30d24eb-193e-475a-a8ef-702282e0b9a9)
 
 
 Near a micro USB port, a BAT60JFILIM Schottky diode can serve several purposes depending on the specific design requirements of the circuit:
