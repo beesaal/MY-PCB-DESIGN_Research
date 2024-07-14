@@ -1,0 +1,17 @@
+Change Component Comment: Designator=U13 Old Comment= New Comment=STM32MP157CAC3
+Change Component Comment: Designator=U13 Old Comment= New Comment=STM32MP157CAC3
+Change Component Comment: Designator=U13 Old Comment= New Comment=STM32MP157CAC3
+Change Component Comment: Designator=U13 Old Comment= New Comment=STM32MP157CAC3
+Change Component Comment: Designator=U13 Old Comment= New Comment=STM32MP157CAC3
+Change Component Comment: Designator=C64 Old Comment=Capacitor New Comment=
+Change Component Comment: Designator=C72 Old Comment=Capacitor New Comment=
+Change Component Comment: Designator=C73 Old Comment=Capacitor New Comment=
+Change Component Comment: Designator=U4 Old Comment=STPMU1 New Comment=STPMU1A
+Change Component Comment: Designator=CN6 Old Comment=   New Comment=
+Change Component Comment: Designator=Q2 Old Comment=   New Comment=
+Change Pin Designator/Name:  Old Designator=C64-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C64-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=C72-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C72-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=C73-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C73-2 Old Name=2 New Designator =1 New Name=1

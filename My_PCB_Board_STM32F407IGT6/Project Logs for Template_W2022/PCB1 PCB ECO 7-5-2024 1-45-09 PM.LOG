@@ -1,0 +1,82 @@
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Add Component: Footprint Not Found 0603C
+Add Component: Footprint Not Found 0603C
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0402
+Add Component: Footprint Not Found C0402
+Add Component: Footprint Not Found C0402
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found LED_BI-GR_HSMF-A201-A00J1
+Add Component: Footprint Not Found R0402
+Add Component: Footprint Not Found R0402
+Add Component: Footprint Not Found R0402
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found SOLDER-BRIDGE_R0603-0R
+Add Component: Footprint Not Found SOT23-213
+Add Pin To Net: Unknown Pin: Pin C163-1
+Add Pin To Net: Unknown Pin: Pin C163-2
+Add Pin To Net: Unknown Pin: Pin C165-1
+Add Pin To Net: Unknown Pin: Pin C165-2
+Add Pin To Net: Unknown Pin: Pin C185-1
+Add Pin To Net: Unknown Pin: Pin C185-2
+Add Pin To Net: Unknown Pin: Pin C187-1
+Add Pin To Net: Unknown Pin: Pin C187-2
+Add Pin To Net: Unknown Pin: Pin C188-1
+Add Pin To Net: Unknown Pin: Pin C188-2
+Add Pin To Net: Unknown Pin: Pin C189-1
+Add Pin To Net: Unknown Pin: Pin C189-2
+Add Pin To Net: Unknown Pin: Pin C190-1
+Add Pin To Net: Unknown Pin: Pin C190-2
+Add Pin To Net: Unknown Pin: Pin LD11-1
+Add Pin To Net: Unknown Pin: Pin LD11-2
+Add Pin To Net: Unknown Pin: Pin LD11-3
+Add Pin To Net: Unknown Pin: Pin LD11-4
+Add Pin To Net: Unknown Pin: Pin R20-1
+Add Pin To Net: Unknown Pin: Pin R20-2
+Add Pin To Net: Unknown Pin: Pin R21-1
+Add Pin To Net: Unknown Pin: Pin R21-2
+Add Pin To Net: Unknown Pin: Pin R100-1
+Add Pin To Net: Unknown Pin: Pin R100-2
+Add Pin To Net: Unknown Pin: Pin R172-2
+Add Pin To Net: Unknown Pin: Pin R178-1
+Add Pin To Net: Unknown Pin: Pin R178-2
+Add Pin To Net: Unknown Pin: Pin R181-1
+Add Pin To Net: Unknown Pin: Pin R181-2
+Add Pin To Net: Unknown Pin: Pin R303-1
+Add Pin To Net: Unknown Pin: Pin R303-2
+Add Pin To Net: Unknown Pin: Pin R304-1
+Add Pin To Net: Unknown Pin: Pin R304-2
+Add Pin To Net: Unknown Pin: Pin R305-1
+Add Pin To Net: Unknown Pin: Pin R305-2
+Add Pin To Net: Unknown Pin: Pin SB21-1
+Add Pin To Net: Unknown Pin: Pin SB21-2
+Add Pin To Net: Unknown Pin: Pin T6-2
+Add Pin To Net: Unknown Pin: Pin T6-3
+Add Class Member: Failed to add class member : Component C163 100nF
+Add Class Member: Failed to add class member : Component C165 100nF
+Add Class Member: Failed to add class member : Component C185
+Add Class Member: Failed to add class member : Component C187
+Add Class Member: Failed to add class member : Component C188
+Add Class Member: Failed to add class member : Component C189
+Add Class Member: Failed to add class member : Component C190
+Add Class Member: Failed to add class member : Component LD11
+Add Class Member: Failed to add class member : Component R20
+Add Class Member: Failed to add class member : Component R21
+Add Class Member: Failed to add class member : Component R100
+Add Class Member: Failed to add class member : Component R172 1K5
+Add Class Member: Failed to add class member : Component R178 4K7
+Add Class Member: Failed to add class member : Component R181 4K7
+Add Class Member: Failed to add class member : Component R303 36K
+Add Class Member: Failed to add class member : Component R304 10K
+Add Class Member: Failed to add class member : Component R305 100K
+Add Class Member: Failed to add class member : Component SB21
+Add Class Member: Failed to add class member : Component T6 9013
+Added Member To Class: ClassName=Sheet1 Member=Component U1 STM32F407IGT6
+Added Member To Class: ClassName=Sheet1 Member=Component U2 STM32F407IGT6

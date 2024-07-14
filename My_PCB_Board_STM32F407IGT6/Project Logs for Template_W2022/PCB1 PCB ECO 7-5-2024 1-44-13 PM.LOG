@@ -1,0 +1,150 @@
+Change Component Footprint: Designator=P25 Old Footprint=649010227222 New Footprint=649010227222
+Change Component Footprint: Designator=U34 Old Footprint=FP-SOT23-5L-7049676-MFG New Footprint=FP-SOT23-5L-7049676-MFG
+Change Component Footprint: Designator=J1 Old Footprint=MOLX-67503-1020_V New Footprint=MOLX-67503-1020_V
+Add Component: Footprint Not Found 0603C
+Add Component: Footprint Not Found 0603C
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found C0402
+Add Component: Footprint Not Found C0402
+Add Component: Footprint Not Found C0402
+Add Component: Footprint Not Found C0603
+Add Component: Footprint Not Found LED_BI-GR_HSMF-A201-A00J1
+Add Component: Footprint Not Found R0402
+Add Component: Footprint Not Found R0402
+Add Component: Footprint Not Found R0402
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found 0603R
+Add Component: Footprint Not Found SOLDER-BRIDGE_R0603-0R
+Add Component: Footprint Not Found SOT23-213
+Added Component: Designator=U?(STM-LQFP176_M)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/web/en/home.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00035129.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core"; Value = "ARM Cortex-M4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "D/A Converter"; Value = "2x12-bit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FLASH Size (Prog) (kB)"; Value = "1024"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "I/Os (High Current)"; Value = "140"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Internal RAM Size (kB)"; Value = "192"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Frequency(F) (Processor speed) (MHz)"; Value = "168"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "176-Pin Low Profile Quad Flat Package, 24 x 24 mm Body, 0.5 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LQFP176"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 4, 06/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "STM32F407IGT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) max (V)"; Value = "3.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) min (V)"; Value = "1.8"; VariantName = "[No Variations]"
+Added Component: Designator=U?(STM-LQFP176_M)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/web/en/home.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00035129.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core"; Value = "ARM Cortex-M4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "D/A Converter"; Value = "2x12-bit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FLASH Size (Prog) (kB)"; Value = "1024"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "I/Os (High Current)"; Value = "140"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Internal RAM Size (kB)"; Value = "192"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Frequency(F) (Processor speed) (MHz)"; Value = "168"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "176-Pin Low Profile Quad Flat Package, 24 x 24 mm Body, 0.5 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LQFP176"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 4, 06/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "STM32F407IGT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) max (V)"; Value = "3.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) min (V)"; Value = "1.8"; VariantName = "[No Variations]"
+Added Component: Designator=U?(STM-LQFP176_M)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/web/en/home.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00035129.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core"; Value = "ARM Cortex-M4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "D/A Converter"; Value = "2x12-bit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FLASH Size (Prog) (kB)"; Value = "1024"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "I/Os (High Current)"; Value = "140"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Internal RAM Size (kB)"; Value = "192"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Frequency(F) (Processor speed) (MHz)"; Value = "168"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "176-Pin Low Profile Quad Flat Package, 24 x 24 mm Body, 0.5 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LQFP176"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 4, 06/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "STM32F407IGT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) max (V)"; Value = "3.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) min (V)"; Value = "1.8"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C163-1
+Add Pin To Net: Unknown Pin: Pin C163-2
+Add Pin To Net: Unknown Pin: Pin C165-1
+Add Pin To Net: Unknown Pin: Pin C165-2
+Add Pin To Net: Unknown Pin: Pin C185-1
+Add Pin To Net: Unknown Pin: Pin C185-2
+Add Pin To Net: Unknown Pin: Pin C187-1
+Add Pin To Net: Unknown Pin: Pin C187-2
+Add Pin To Net: Unknown Pin: Pin C188-1
+Add Pin To Net: Unknown Pin: Pin C188-2
+Add Pin To Net: Unknown Pin: Pin C189-1
+Add Pin To Net: Unknown Pin: Pin C189-2
+Add Pin To Net: Unknown Pin: Pin C190-1
+Add Pin To Net: Unknown Pin: Pin C190-2
+Add Pin To Net: Unknown Pin: Pin LD11-1
+Add Pin To Net: Unknown Pin: Pin LD11-2
+Add Pin To Net: Unknown Pin: Pin LD11-3
+Add Pin To Net: Unknown Pin: Pin LD11-4
+Add Pin To Net: Unknown Pin: Pin R20-1
+Add Pin To Net: Unknown Pin: Pin R20-2
+Add Pin To Net: Unknown Pin: Pin R21-1
+Add Pin To Net: Unknown Pin: Pin R21-2
+Add Pin To Net: Unknown Pin: Pin R100-1
+Add Pin To Net: Unknown Pin: Pin R100-2
+Add Pin To Net: Unknown Pin: Pin R172-2
+Add Pin To Net: Unknown Pin: Pin R178-1
+Add Pin To Net: Unknown Pin: Pin R178-2
+Add Pin To Net: Unknown Pin: Pin R181-1
+Add Pin To Net: Unknown Pin: Pin R181-2
+Add Pin To Net: Unknown Pin: Pin R303-1
+Add Pin To Net: Unknown Pin: Pin R303-2
+Add Pin To Net: Unknown Pin: Pin R304-1
+Add Pin To Net: Unknown Pin: Pin R304-2
+Add Pin To Net: Unknown Pin: Pin R305-1
+Add Pin To Net: Unknown Pin: Pin R305-2
+Add Pin To Net: Unknown Pin: Pin SB21-1
+Add Pin To Net: Unknown Pin: Pin SB21-2
+Add Pin To Net: Unknown Pin: Pin T6-2
+Add Pin To Net: Unknown Pin: Pin T6-3
+Added Class: Name=Sheet1
+Add Class Member: Failed to add class member : Component C163 100nF
+Add Class Member: Failed to add class member : Component C165 100nF
+Add Class Member: Failed to add class member : Component C185
+Add Class Member: Failed to add class member : Component C187
+Add Class Member: Failed to add class member : Component C188
+Add Class Member: Failed to add class member : Component C189
+Add Class Member: Failed to add class member : Component C190
+Add Class Member: Failed to add class member : Component LD11
+Add Class Member: Failed to add class member : Component R20
+Add Class Member: Failed to add class member : Component R21
+Add Class Member: Failed to add class member : Component R100
+Add Class Member: Failed to add class member : Component R172 1K5
+Add Class Member: Failed to add class member : Component R178 4K7
+Add Class Member: Failed to add class member : Component R181 4K7
+Add Class Member: Failed to add class member : Component R303 36K
+Add Class Member: Failed to add class member : Component R304 10K
+Add Class Member: Failed to add class member : Component R305 100K
+Add Class Member: Failed to add class member : Component SB21
+Add Class Member: Failed to add class member : Component T6 9013
