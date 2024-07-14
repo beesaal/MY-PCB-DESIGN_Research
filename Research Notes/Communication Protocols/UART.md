@@ -3,7 +3,53 @@
 The UART (Universal Asynchronous Receiver-Transmitter) is a fundamental communication protocol used in device-to-device communication. It facilitates serial communication, where data is transmitted bit by bit over a single line. In two-way communication, UART uses two wires: one for transmitting data (Tx) and one for receiving data (Rx). This simplicity reduces the need for extensive circuitry and wiring, making UART an efficient and cost-effective solution.
 
 
-![05_Understanding-UART_01_w1280_hX](https://github.com/user-attachments/assets/150ecc63-c3e9-46f1-b975-1ed357e42c29)
+  ![2024-07-14 12_58_00-Understanding UART _ Rohde   Schwarz - Brave](https://github.com/user-attachments/assets/ab7ff393-6f22-47a6-8af4-9b2f812eb826)
+
+
+
+### Basics of UART Communication
+**UART Overview**:
+
+-   UART is a hardware communication protocol that uses asynchronous serial communication with configurable speed.
+-   It does not use a clock signal for synchronization. Instead, the transmitter generates a bitstream based on its clock signal, while the receiver uses its internal clock to sample the incoming data.
+-   For effective communication, both transmitting and receiving devices must have the same baud rate, which is the rate at which information is transferred.
+
+**Key UART Components**:
+
+1.  **Transmitter (Tx)**: Sends data serially bit by bit.
+2.  **Receiver (Rx)**: Receives serial data and converts it back to parallel form.
+
+**Standard UART Configuration**:
+
+-   Wires: 2 (Tx and Rx)
+-   Speed: Common baud rates include 9600, 19200, 38400, 57600, 115200, 230400, 460800, 921600, 1000000, 1500000
+-   Method of Transmission: Asynchronous
+-   Maximum Number of Masters: 1
+-   Maximum Number of Slaves: 1
+
+### Data Transmission Process
+
+**UART Packet Structure**:
+
+-   **Start Bit**: Initiates the data transfer by pulling the line low.
+-   **Data Frame**: Contains the actual data (5 to 9 bits long, depending on the use of a parity bit).
+-   **Parity Bit**: Optional; used for error checking by ensuring the total number of 1s is even (even parity) or odd (odd parity).
+-   **Stop Bits**: Signify the end of the packet by pulling the line high for 1 or 2 bit durations.
+
+
+### UART Operations
+
+**Steps for Implementing UART**:
+
+1.  Check the device's datasheet for UART interface details.
+2.  Locate the UART address in the memory map.
+3.  Review the UART port details (operation mode, data bits length, parity bit, stop bits).
+4.  Configure the baud rate using the formula provided in the datasheet.
+5.  Ensure both devices use the same baud rate to avoid timing discrepancies.
+6.  Check the detailed registers for UART configuration (e.g., UART_DIV, UART_FIBR, UART_LCR2).
+7.  Substitute values to compute the baud rate and start implementing UART.
+
+
 
 Where is UART used?
 -------------------
@@ -42,7 +88,7 @@ If we want to send the capital letter "S" in 7-bit ASCII, the bit sequence is 1 
 
 
 
-#### Parity bit
+### Parity bit
 
 A UART frame can also contain an optional parity bit that can be used for error detection. This bit is inserted between the end of the data bits and the stop bit. The value of the parity bit depends on the type of parity being used (even or odd):
 
@@ -103,78 +149,5 @@ No communication protocol is perfect, but UARTs are pretty good at what they do
 -   Doesn't support multiple slave or multiple master systems
 -   The baud rates of each UART must be within 10% of each other
 
-### Basics of UART Communication
-**UART Overview**:
 
--   UART is a hardware communication protocol that uses asynchronous serial communication with configurable speed.
--   It does not use a clock signal for synchronization. Instead, the transmitter generates a bitstream based on its clock signal, while the receiver uses its internal clock to sample the incoming data.
--   For effective communication, both transmitting and receiving devices must have the same baud rate, which is the rate at which information is transferred.
 
-**Key UART Components**:
-
-1.  **Transmitter (Tx)**: Sends data serially bit by bit.
-2.  **Receiver (Rx)**: Receives serial data and converts it back to parallel form.
-
-**Standard UART Configuration**:
-
--   Wires: 2 (Tx and Rx)
--   Speed: Common baud rates include 9600, 19200, 38400, 57600, 115200, 230400, 460800, 921600, 1000000, 1500000
--   Method of Transmission: Asynchronous
--   Maximum Number of Masters: 1
--   Maximum Number of Slaves: 1
-
-### Data Transmission Process
-
-**UART Packet Structure**:
-
--   **Start Bit**: Initiates the data transfer by pulling the line low.
--   **Data Frame**: Contains the actual data (5 to 9 bits long, depending on the use of a parity bit).
--   **Parity Bit**: Optional; used for error checking by ensuring the total number of 1s is even (even parity) or odd (odd parity).
--   **Stop Bits**: Signify the end of the packet by pulling the line high for 1 or 2 bit durations.
-
-**Transmission Steps**:
-
-1.  The transmitting UART receives parallel data from the data bus.
-2.  It adds the start bit, parity bit, and stop bit(s) to the data frame.
-3.  The packet is sent serially from the transmitting UART to the receiving UART.
-4.  The receiving UART samples the data line at the baud rate, discards the start, parity, and stop bits.
-5.  It converts the serial data back to parallel and transfers it to the data bus.
-
-### Frame Protocol
-
-A frame protocol adds security and error-checking features to the UART communication. It includes a header, command, data length, data, trailer, and CRC (Cyclic Redundancy Check). Each device can have unique configurations for these elements to ensure secure communication.
-
-**Frame Protocol Components**:
-
--   **Header**: Unique identifier for the device.
--   **Command**: List of commands for communication between devices.
--   **Data Length**: Varies based on the command.
--   **Data**: Payload to be transferred.
--   **Trailer**: Indicates the end of the transmission.
--   **CRC**: Error-checking formula to ensure data integrity.
-
-### UART Operations
-
-**Steps for Implementing UART**:
-
-1.  Check the device's datasheet for UART interface details.
-2.  Locate the UART address in the memory map.
-3.  Review the UART port details (operation mode, data bits length, parity bit, stop bits).
-4.  Configure the baud rate using the formula provided in the datasheet.
-5.  Ensure both devices use the same baud rate to avoid timing discrepancies.
-6.  Check the detailed registers for UART configuration (e.g., UART_DIV, UART_FIBR, UART_LCR2).
-7.  Substitute values to compute the baud rate and start implementing UART.
-
-### Importance and Applications
-
-**Importance**:
-
--   Understanding UART is crucial for developing reliable and efficient embedded systems.
--   Ensures robust data transfer and minimizes errors.
-
-**Applications**:
-
--   **Debugging**: Capture system messages for early bug detection.
--   **Manufacturing Tracing**: Logs provide insights into manufacturing processes.
--   **Customer Updates**: Enables dynamic hardware with update-capable software.
--   **Testing/Verification**: Ensures product quality before delivery.
