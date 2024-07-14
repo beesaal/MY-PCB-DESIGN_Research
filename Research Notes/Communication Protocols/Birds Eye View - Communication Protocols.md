@@ -1,4 +1,6 @@
 ### Communication Protocols Overview for Embedded Systems
+------------------------------------------------------------------------------------
+
 
 #### 1\. **Serial Communication Protocols:**
 
@@ -21,6 +23,9 @@
     -   Reliable, deterministic communication protocol suitable for real-time systems.
     -   Supports multi-master and multi-drop configurations.
 
+
+
+------------------------------------------------------------------------------------------------------
 #### 2\. **Wireless Communication Protocols:**
 
 -   **Wi-Fi (Wireless Fidelity):**
@@ -39,6 +44,9 @@
     -   Supports long-range communication with low data rates.
     -   Suitable for IoT applications requiring long-range communication.
 
+
+
+-------------------------------------------------------------------------------------------------------
 #### 3\. **Network Protocols:**
 
 -   **TCP/IP (Transmission Control Protocol/Internet Protocol):**
@@ -46,6 +54,9 @@
     -   Includes IP, TCP, UDP, ICMP, etc.
     -   Fundamental for internet connectivity and data exchange.
 
+
+
+------------------------------------------------------------------------------------------------------------
 #### 4\. **Real-Time Communication Protocols:**
 
 -   **Modbus:**
@@ -58,6 +69,9 @@
     -   Fieldbus standard for industrial automation.
     -   Supports both field-level and factory-level communication.
 
+
+
+------------------------------------------------------------------------------------------------------------
 #### 5\. **File Transfer Protocols:**
 
 -   **FTP (File Transfer Protocol):**
@@ -67,6 +81,9 @@
     -   Simplified version of FTP.
     -   Used for lightweight file transfer operations in embedded systems.
 
+
+
+------------------------------------------------------------------------------------------------------------
 #### 6\. **Security Protocols:**
 
 -   **TLS/SSL (Transport Layer Security/Secure Sockets Layer):**
@@ -76,12 +93,18 @@
     -   Protocol for secure remote login and other secure network services over an unsecured network.
     -   Ensures data integrity and confidentiality.
 
+
+
+------------------------------------------------------------------------------------------------------------
 #### 7\. **Other Protocols:**
 
 -   **HTTP/HTTPS (Hypertext Transfer Protocol/Secure):**
     -   Application protocols for distributed, collaborative, hypermedia information systems.
     -   Commonly used for web services and IoT applications.
 
+
+
+------------------------------------------------------------------------------------------------------------
 ### Conclusion:
 
 Understanding these protocols is essential for designing, developing, and debugging embedded systems and IoT devices. Each protocol serves specific purposes based on factors like communication range, data rate, power consumption, and network topology. Mastery of these protocols enables embedded system engineers to build reliable, efficient, and secure systems that meet the demands of modern applications.
