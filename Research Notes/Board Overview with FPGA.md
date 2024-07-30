@@ -2,6 +2,39 @@
 
 
 ### *Components List*
+MCUs, SoC, FPGA:
+```sh
+        Main : STM32H7B0VBT6                (128KB 1.62V~3.6V 1.4MB 280MHz FLASH 80 LQFP-100(14x14))               $3.198
+        SoC  : ESP32-S3-WROOM-1-N8          (ESP32-S3 Chip 2.4GHz SMD,18x25.5mm WiFi Modules ROHS)                 $3.825
+        FPGA : LCMXO2-1200HC-4TG144C        (1280 160 TQFP-144(20x20) Programmable Logic Device (CPLDs/FPGAs))     $2.577
+        MCU  : STM32F103C8T6                (64KB 2V~3.6V ARM-M3 20KB 72MHz FLASH 37 LQFP-48(7x7))                 $0.915
+
+
+```
+Memory:
+```sh
+        SDRAM          : W9825G6KH-6         (TSOP-54-10.2mm SDRAM ROHS)                                           $1.194
+        Nor Flash ROM  : W25Q128JVSIM        (128Mbit SPI SOIC-8-208mil NOR FLASH ROHS)                            $0.8955
+```
+Expander/MUX
+```sh
+        IO Expander : MCP23S17-E/SO     (16 10MHz SPI SOIC-28-300mil I/O Expanders)                                $1.383
+        MUX         : SN74HC4066PWR     (30Ω 4 SPST(SPST)-Normal Open TSSOP-14 Analog Switches, Multiplexers)      $0.1308
+
+```
+Peripherals:
+```sh
+        Camera Module         : Ov2640
+        MIC                   : ICS-43434         (Omni-directional 64dB - MEMS Microphones ROHS)                  $1.29
+        IMU                   : QMA7981           (LGA-12(2x2) Accelerometers ROHS)                                $0.4935
+        LCD                   : ILI9341 TFT
+        HDMI-Interface        : ADV7513BSWZ       (LQFP-64(10x10) Video Interface ICs ROHS)                        $4.548  
+        GSM Module            : SIM900A
+        SD-Card               : TF PUSH           (2mm Card Slot MicroSD card (TF card) Self-bouncing, SMD)        $0.0443
+        Ethernet-Transmitter  : DP83848CVVX/NOPB  (PHYtransceiver LQFP-48(7x7) Ethernet Transceivers ROHS)         $1.4835
+        RF-Module             : NRF24L01P-R       (2Mb/s SPI QFN- RF Transceiver ICs)                              $0.898
+
+```
 
 
 ### Block Diagram Overview
