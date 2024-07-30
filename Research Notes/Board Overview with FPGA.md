@@ -1,5 +1,10 @@
-### Block Diagram Overview
+# Board Overview with FPGA
 
+
+### *Components List*
+
+
+### Block Diagram Overview
 
 ![Board Overview with FPGA](https://github.com/user-attachments/assets/ca1b505d-1f3a-4fce-9604-96fcfde150c6)
 
