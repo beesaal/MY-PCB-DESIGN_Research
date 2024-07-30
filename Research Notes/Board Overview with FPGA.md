@@ -67,10 +67,11 @@ Peripherals:
     -   **Purpose**: Receive image data from the camera module.
     -   **Connections**:
         -   Camera module interface (24-pin FFC) to FPGA.
-4.  **FPGA to STM32 MCU (I2C/SPI/GPIO)**:
+4.  **FPGA to STM32 MCU (FSMC/I2C/SPI/GPIO)**:
 
     -   **Purpose**: Coordinate data processing and control tasks.
     -   **Connections**:
+        -   FSMC for random data access from FPGA.
         -   SPI or I2C for command and data transfer.
         -   GPIO for control signals.
 5.  **STM32 MCU to LCD Display**:
