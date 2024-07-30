@@ -33,41 +33,11 @@
 -   **MUX IC**: Use a multiplexer like SN74HC4066PWR to switch between programming lines.
 -   **Control Lines**: Use GPIOs from STM32F103 to control the multiplexer.
 
-### Example Block Diagram:
+### Block Diagram:
 
-```sh
+![FPGA](https://github.com/user-attachments/assets/ba071461-b29c-4c3b-bd7e-b5d88b249cd4)
 
-                             `+-------------------+
-                                    |   USB Interface   |
-                                    |   (STM32F103)     |
-                                    +--------+----------+
-                                             |
-                                    +--------v----------+
-                                    |    ST-Link MCU    |
-                                    |    (STM32F103)    |
-                                    +--------+----------+
-                                             | JTAG/SWD/UART
-                                             |
-                                     +-------v--------+
-                                     |  Multiplexer   |
-                                     |  (SN74HC4066PWR)    |
-                                     +---+---+---+----+
-                                         |   |   |
-                                         |   |   |
-                                         |   |   |
-                                  +------+   |   +-------+
-                                  |          |           |
-                                  |          |           |
-                            +-----v--+  +----v--+   +----v----+
-                            |  STM32 |  |  ESP32 |   |  FPGA  |
-                            | H7B0VB |  | S3-WROOM-1|   | LCMXO2|
-                            | (SWD)  |  |  (UART)  |   | (JTAG) |
-                            +--------+  +---------+   +---------+
-                                  |
-                                  | Control Signals
-                                  | (from STM32F103)
-                                  +----------------------------+`
-```
+
 
 ### 3\. **Control Logic**
 
