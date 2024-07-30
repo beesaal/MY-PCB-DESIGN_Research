@@ -18,7 +18,7 @@ Memory:
 ```
 Expander/MUX
 ```sh
-        IO Expander : MCP23S17-E/SO     (16 10MHz SPI SOIC-28-300mil I/O Expanders)                                $1.383
+        IO Expander : MCP23S17-E/SO     (16 10MHz SPI SOIC-28-300mil I/O Expanders)                                $1.383 x2
         MUX         : SN74HC4066PWR     (30Ω 4 SPST(SPST)-Normal Open TSSOP-14 Analog Switches, Multiplexers)      $0.1308
 
 ```
@@ -28,11 +28,14 @@ Peripherals:
         MIC                   : ICS-43434         (Omni-directional 64dB - MEMS Microphones ROHS)                  $1.29
         IMU                   : QMA7981           (LGA-12(2x2) Accelerometers ROHS)                                $0.4935
         LCD                   : ILI9341 TFT
-        HDMI-Interface        : ADV7513BSWZ       (LQFP-64(10x10) Video Interface ICs ROHS)                        $4.548  
+        HDMI-Interface        : ADV7513BSWZ       (LQFP-64(10x10) Video Interface ICs ROHS)                        $4.548
+        HDMI-Port             : HDMI-01           (19P Female HDMI Horizontal attachment SMD D-Sub / VGA)          $0.2034
         GSM Module            : SIM900A
-        SD-Card               : TF PUSH           (2mm Card Slot MicroSD card (TF card) Self-bouncing, SMD)        $0.0443
+        SD-Card Slot          : TF PUSH           (2mm Card Slot MicroSD card (TF card) Self-bouncing, SMD)        $0.0443
         Ethernet-Transmitter  : DP83848CVVX/NOPB  (PHYtransceiver LQFP-48(7x7) Ethernet Transceivers ROHS)         $1.4835
+        Ethernet-Port         : RC01931           (RJ45Receptacle 1 Shielded Direct Insert WithLED)                $0.2672
         RF-Module             : NRF24L01P-R       (2Mb/s SPI QFN- RF Transceiver ICs)                              $0.898
+        USB Type-C Port       : USB4105-GF-A-060  (SMD USB Connectors ROHS)                                        frm toolroom
 
 ```
 
