@@ -1,55 +1,13 @@
 ### Block Diagram Overview
 
-```sh
 
- `+-------------------------------------+
-    |                                     |
-    |               ESP32                 |
-    |       (Camera Interface, Wi-Fi,     |
-    |        Bluetooth, SPI Master)       |
-    |                                     |
-    +------------------+------------------+
-                       |
-                       | (SPI)
-                       |
-    +------------------v------------------+
-    |                                     |
-    |              FPGA (LCMXO2-640HC)    |
-    |      (SPI to Parallel Conversion,   |
-    |      Memory Controller, Data Buffer)|
-    |                                     |
-    +------------+------+-----------------+
-                 |      |
-                 |      | (Parallel Interface)
-                 |      |
-                 |      +-----------------+
-                 |                        |
-                 |                        |
-   +-------------v------+     +-----------v------------+
-   |                    |     |                        |
-   |      SDRAM         |     |        Camera Module   |
-   | (Data Storage/Buffer)|   |  (24-pin FFC Interface)|
-   |                    |     |                        |
-   +--------------------+     +-----------+------------+
-                                           |
-                      (I2C/SPI/GPIO)       |
-    +------------------+-------------------+
-    |                                     |
-    |              STM32 MCU              |
-    |          (Main Processing)          |
-    |                                     |
-    +------------------+------------------+
-                       |
-                       |
-                       | (SPI/I2C)
-                       |
-    +------------------v------------------+
-    |                                     |
-    |             LCD Display             |
-    |                                     |
-    +-------------------------------------+`
+![Board Overview with FPGA](https://github.com/user-attachments/assets/ca1b505d-1f3a-4fce-9604-96fcfde150c6)
 
-```
+
+[Board Overview with FPGA.pdf](https://github.com/user-attachments/files/16422740/Board.Overview.with.FPGA.pdf)
+
+
+
 
 ### Key Connections and Circuitry
 
