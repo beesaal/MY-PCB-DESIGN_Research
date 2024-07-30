@@ -35,7 +35,7 @@ Peripherals:
         Ethernet-Transmitter  : DP83848CVVX/NOPB  (PHYtransceiver LQFP-48(7x7) Ethernet Transceivers ROHS)         $1.4835
         Ethernet-Port         : RC01931           (RJ45Receptacle 1 Shielded Direct Insert WithLED)                $0.2672
         RF-Module             : NRF24L01P-R       (2Mb/s SPI QFN- RF Transceiver ICs)                              $0.898
-        USB Type-C Port       : USB4105-GF-A-060  (SMD USB Connectors ROHS)                                        frm toolroom
+        USB Type-C Port       : USB4105-GF-A-060  (SMD USB Connectors ROHS)                                    frm toolroom
 
 ```
 
