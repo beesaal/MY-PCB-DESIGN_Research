@@ -1,6 +1,10 @@
 # *Unified Programming Architecture*
 
 
+### Block Diagram:
+
+![FPGA](https://github.com/user-attachments/assets/ba071461-b29c-4c3b-bd7e-b5d88b249cd4)
+
 #### A. **Primary Interface**
 
 -   **USB**: Use the USB interface of the STM32F103 (configured as ST-Link) as the primary connection between your PC and the programming hardware on the PCB.
@@ -31,13 +35,7 @@
 #### B. **Multiplexer Selection**
 
 -   **MUX IC**: Use a multiplexer like SN74HC4066PWR to switch between programming lines.
--   **Control Lines**: Use GPIOs from STM32F103 to control the multiplexer.
-
-### Block Diagram:
-
-![FPGA](https://github.com/user-attachments/assets/ba071461-b29c-4c3b-bd7e-b5d88b249cd4)
-
-
+-   **Control Lines**: Use GPIOs from STM32F103 to control the multiplexer
 
 ### 3\. **Control Logic**
 
@@ -81,16 +79,18 @@
 3.  **Load Firmware**: Use appropriate software tools (like ST-Link Utility) to load firmware to the selected device.
 4.  **Repeat**: Repeat the process for each device.
 
-### 5\. **Using External Flash Memory**
-
-You can partition the external flash memory to store firmware for each device and have them read their respective sections at boot. This requires a custom bootloader for each device to read the appropriate memory segment.
-
 ### Summary
 
 By using the STM32F103 as an ST-Link MCU, you can program multiple devices on your PCB using a single USB interface. The process involves switching the programming lines using a multiplexer controlled by GPIOs from the STM32F103. This method streamlines the programming process and can be effectively implemented with careful design and control logic.
 can partition the external flash memory to store firmware for each device and have them read their respective sections at boot. This requires a custom bootloader for each device to read the appropriate memory segment.
 
-## *Routing and Connections*
+
+
+## Using External Flash Memory
+
+You can partition the external flash memory to store firmware for each device and have them read their respective sections at boot. This requires a custom bootloader for each device to read the appropriate memory segment.
+
+### *Routing and Connections*
 
 
 1.  **SPI Interface to NOR Flash:**
@@ -109,12 +109,12 @@ can partition the external flash memory to store firmware for each device and ha
 
     -   Design GPIO-controlled circuits to toggle boot pins for each device.
 
-#### **1.3. Power Supply and Decoupling**
+### *Power Supply and Decoupling*
 
 -   Ensure stable power supply with proper decoupling capacitors for each IC.
 -   Provide separate voltage rails if necessary for different devices.
 
-#  *Programming Strategy*
+##  *Programming Strategy*
 
 
 #### **2.1. Firmware Storage**
