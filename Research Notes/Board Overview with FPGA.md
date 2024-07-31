@@ -31,7 +31,7 @@ Peripherals:
         HDMI-Interface        : ADV7513BSWZ       (LQFP-64(10x10) Video Interface ICs ROHS)                        $4.548
         HDMI-Port             : HDMI-01           (19P Female HDMI Horizontal attachment SMD D-Sub / VGA)          $0.2034
         GSM Module            : SIM900A
-        SD-Card Slot          : TF PUSH           (2mm Card Slot MicroSD card (TF card) Self-bouncing, SMD)        $0.0443
+        SD-Card Slot          : TF-01A            (Yuandi MicroSD card Slot (TF card) Self-bouncing, SMD)          $0.0719
         Ethernet-Transmitter  : DP83848CVVX/NOPB  (PHYtransceiver LQFP-48(7x7) Ethernet Transceivers ROHS)         $1.4835
         Ethernet-Port         : RC01931           (RJ45Receptacle 1 Shielded Direct Insert WithLED)                $0.2672
         RF-Module             : NRF24L01P-R       (2Mb/s SPI QFN- RF Transceiver ICs)                              $0.898
