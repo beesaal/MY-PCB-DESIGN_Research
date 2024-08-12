@@ -3,6 +3,10 @@
 
 ### Block Diagram:
 
+Use ths below first image.
+![Flashing](https://github.com/user-attachments/assets/c9fae8d8-d2d8-473b-aef8-e6beaae967c1)
+
+
 ![FPGA](https://github.com/user-attachments/assets/ba071461-b29c-4c3b-bd7e-b5d88b249cd4)
 
 #### A. **Primary Interface**
