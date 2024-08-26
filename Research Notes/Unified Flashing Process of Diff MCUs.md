@@ -1,5 +1,8 @@
 # Updated Process
 
+
+![Flashing](https://github.com/user-attachments/assets/01d317de-fcad-43a9-a900-5c2a5ab6d83b)
+
 The updated process involves the following key elements:
 
 1.  **Modular Firmware Management**: Split the task into distinct phases: storing firmware, flashing devices, and verifying the flashing process.
