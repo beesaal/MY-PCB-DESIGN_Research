@@ -213,6 +213,54 @@ void StartRTOS(void) {
 
 This approach ensures that the flashing process is robust, easy to manage, and scalable for future development.
 
+
+## Before that make sure to check whether their is already firmware or not/ if theirs is update available
+Then only set this chip to program others, otherwise just bypass it. (For reset/restart cause)
+
+Here's how you might implement this logic:
+
+```c
+
+
+#include "main.h"
+
+// Function prototypes
+void JumpToApplication(uint32_t app_address);
+void ProgramChips(void);
+
+int main(void) {
+    HAL_Init();
+    SystemClock_Config();
+    MX_GPIO_Init();
+
+    // Check for firmware update condition
+    if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_SET) {
+        // If a specific condition is met, program the chips
+        ProgramChips();
+    } else {
+        // Otherwise, jump to main application
+        JumpToApplication(0x08001000); // Address of STM32 main application
+    }
+
+    while (1) {
+        // Should never reach here
+    }
+}
+
+// Jump to application firmware
+void JumpToApplication(uint32_t app_address) {
+    __disable_irq();
+    __set_MSP(*(__IO uint32_t*)app_address);
+    void (*app_entry)(void) = (void (*)(void))(app_address + 4);
+    app_entry();
+}
+
+// Example function to program the other chips
+void ProgramChips(void) {
+    // Add code to program ESP32 and FPGA as needed
+    // Use the WriteFirmwareToExternalFlash function and any other necessary logic
+}
+```
 ### **Complete Demo Code for STM32CubeIDE**
 
 ```c
