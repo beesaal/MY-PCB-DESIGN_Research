@@ -1,7 +1,7 @@
 # Updated Process
 
 
-![Flashing](https://github.com/user-attachments/assets/275e9eab-c30a-4324-a3ce-aeb2ac3eeea0)
+![Flashing](https://github.com/user-attachments/assets/69e1ba08-d4e7-4d48-8056-7816458610a8)
 
 
 The updated process involves the following key elements:
