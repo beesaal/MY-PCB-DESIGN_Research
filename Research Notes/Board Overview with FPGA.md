@@ -7,7 +7,7 @@ MCUs, SoC, FPGA:
         Main : STM32H7B0VBT6                (128KB 1.62V~3.6V 1.4MB 280MHz FLASH 80 LQFP-100(14x14))               $3.198
         SoC  : ESP32-S3-WROOM-1-N8          (ESP32-S3 Chip 2.4GHz SMD,18x25.5mm WiFi Modules ROHS)                 $3.825
         FPGA : LCMXO2-1200HC-4TG144C        (Lattice, 1280 160 TQFP-144(20x20), (CPLDs/FPGAs))                     $2.577
-             : XC3S50A-4VQG100C             (AMD/XILINX, VQFP-100(14x14, (CPLDs/FPGAs))                            $4.704
+             : XC3S50A-4VQG100C             (AMD/XILINX, VQFP-100(14x14, (CPLDs/FPGAs))                            $4.704        recommended
         MCU  : STM32F103C8T6                (64KB 2V~3.6V ARM-M3 20KB 72MHz FLASH 37 LQFP-48(7x7))                 $0.915
 
 
