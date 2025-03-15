@@ -25,7 +25,7 @@ Expander/MUX
 ```
 Peripherals:
 ```sh
-        Camera Module         : Ov2640
+        Camera Module         : Ov7670
         MIC                   : ICS-43434         (Omni-directional 64dB - MEMS Microphones ROHS)                  $1.29
         IMU                   : QMA7981           (LGA-12(2x2) Accelerometers ROHS)                                $0.4935
         LCD                   : ILI9341 TFT
