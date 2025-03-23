@@ -42,6 +42,8 @@ Peripherals:
 
 
 ### Block Diagram Overview
+![nova_vision Schematic diagram pheripherals connection](https://github.com/user-attachments/assets/e6be42c9-668d-49b7-a8b0-1e84d1c26152)
+
 
 ![Board Overview with FPGA](https://github.com/user-attachments/assets/ca1b505d-1f3a-4fce-9604-96fcfde150c6)
 
