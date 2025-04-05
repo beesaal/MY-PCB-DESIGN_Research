@@ -8,6 +8,7 @@ MCUs, SoC, FPGA:
         SoC  : ESP32-S3-WROOM-1-N8          (ESP32-S3 Chip 2.4GHz SMD,18x25.5mm WiFi Modules ROHS)                 $3.825
         FPGA : LCMXO2-1200HC-4TG144C        (Lattice, 1280 160 TQFP-144(20x20), (CPLDs/FPGAs))                     $2.577
              : XC3S50A-4VQG100C             (AMD/XILINX, VQFP-100(14x14, (CPLDs/FPGAs))                            $4.704        recommended
+             : XC6SLX9-2TQG144CXC6SLX9-2TQG144C
         MCU  : STM32F103C8T6                (64KB 2V~3.6V ARM-M3 20KB 72MHz FLASH 37 LQFP-48(7x7))                 $0.915
 
 
@@ -39,8 +40,10 @@ Peripherals:
         USB Type-C Port       : USB4105-GF-A-060  (SMD USB Connectors ROHS)                                    frm toolroom
 
 ```
-
-
+```sh
+[OV7670 Camera] → [XC6SLX9 FPGA] → [SRAM via Bus Switch] → [STM32H7 via FMC] → [Output: UART/LCD]
+   (Raw Image)      (Preprocessing)      (Buffering)            (Inference)         (Results)
+```
 ### Block Diagram Overview
 ![nova_vision Schematic diagram pheripherals connection](https://github.com/user-attachments/assets/e6be42c9-668d-49b7-a8b0-1e84d1c26152)
 
